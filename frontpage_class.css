@@ -1,0 +1,325 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.center1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 88vh;
+    color: white;
+}
+
+.center2{
+    text-align: center;
+    color: white;
+}
+
+.login{
+    background: url(images/bg1.png);
+    background-size: cover;
+    border: 10px solid black;
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 80vh;
+    padding: 50px;
+}
+
+.signin{
+    background: url(images/bg1.png);
+    background-size: cover;
+    border: 10px solid black;
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 60vh;
+    padding: 50px;
+}
+
+.button1{
+    width: 130px;
+    height: 22px;
+    border: 1px solid black;
+}
+
+.button2{
+    width: 120px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.fa_buttons{
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+}
+
+.unpw{
+    text-align: center;
+    width:75%;
+    border: 3px solid black;
+    margin: auto;
+    background-color: rgb(243, 237, 237);
+}
+
+.signup{
+    margin-top: 10px;
+    margin-left: 20%;
+    text-align: end;
+    margin: auto;
+}
+
+.frontbox{
+    text-align: center;
+    background-color: rgb(20, 115, 210);
+    width: 40%;
+    height: 30%;
+    padding: 10px;
+    margin-left: 63%;
+}
+
+.frontbox_inner{
+    text-align: left;
+    background-color: white;
+}
+
+.loginphp{
+    text-align: center;
+    border: 2px solid black;
+    width: 35%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.apps{
+    float: left;
+    background-color: aliceblue;
+    width: 20%;
+    height: 695px;
+    text-align: center;
+    background: url(images/app_side.jpg);
+    background-size: cover;
+}
+
+.messages{
+    float: right;
+    background-color: antiquewhite;
+    width: 20%;
+    height: 695px;
+    text-align: center;
+    background: url(images/app_side.jpg);
+    background-size: cover;
+}
+
+.center{
+    float: left;
+    background-color: aliceblue;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.userinfo{
+    text-align: left;
+    padding: 10px;
+}
+
+.float_left{
+    float: left;
+    margin-left: 10%;
+}
+
+.float_right{
+    float: right;
+    margin-right: 10%;
+}
+
+.profile_pic{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.user_info{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.change_dp{
+    float: right;
+    margin-right: 1100px;
+    margin-top: 110px;
+}
+
+.dps{
+    padding: 80px;
+    margin-left: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cen{
+    margin-left: 45%;
+    height: 30px;
+    width: 100px;
+}
+
+#canvas1{
+    border: 1px solid black;
+    background: url(images/canvas1.jpg);
+    background-size: cover;
+    position: absolute;
+}
+
+#front{
+    position: absolute;
+}
+
+.Msearch{
+    height: 7vh;
+    width: 20%;
+}
+
+.Mtext{
+    font-size: 25px;
+}
+
+.Mbutton{
+    height: 30px;
+    width: 100px;
+}
+
+.genreButton{
+    margin-left: 10vh;
+    height: 7vh;
+    width: 20vh;
+}
+
+.cennew{
+    text-align: center;
+}
+
+.options{
+    margin-left: 45vh;
+}
+
+.optionscolor{
+    background-color: rgb(149, 149, 237);
+}
+
+.select_genre{
+    text-align: center;
+    margin-left: 10vh;
+    margin-top: 15vh;
+}
+
+.common{
+    height: 20vh;
+    width: 30vh;
+    background-size: cover;
+}
+
+.comedy{
+    background-image: url('images/comedy.png');
+    display: block;
+}
+
+.action{
+    background-image: url('images/action.png');
+}
+
+.thriller{
+    background-image: url('images/thriller.png');
+}
+
+.mystery{
+    background-image: url('images/mystery.png');
+}
+
+.sci_fi{
+    background-image: url('images/sci_fi.png');
+}
+
+.romance{
+    background-image: url('images/romance.png');
+}
+
+.drama{
+    background-image: url('images/drama.png');
+}
+
+.fantasy{
+    background-image: url('images/fantasy.png');
+}
+
+.biography{
+    background-image: url('images/bio.png');
+}
+.crime{
+    background-image: url('images/crime.png');
+}
+
+.history{
+    background-image: url('images/history.png');
+}
+
+.adventure{
+    background-image: url('images/adventure.png');
+}
+.western{
+    background-image: url('images/western.png');
+}
+
+.animation{
+    background-image: url('images/animation.png');
+}
+
+.family{
+    background-image: url('images/family.png');
+}
+.war{
+    background-image: url('images/war.png');
+}
+
+.music{
+    background-image: url('images/music.png');
+}
+
+
+.choosegenre{
+    display: block;
+}
+
+.successfull{
+    text-align: center;
+}
+
+.F{
+    height: 200px;
+    width: 150px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10vh;
+    margin-top: 3vh;
+    float: left;
+}
+
+
+.Trailer{
+    height: 600px;
+    width: 500px;
+    margin-left: 28%;
+    margin-top: 2%;
+}
+
+.dropdown{
+    background-color: grey;
+    width: 310px;
+    margin-left: 92.5vh;
+    font-size: 20px;
+    
+}
